@@ -8,12 +8,15 @@ This repository demonstrates how to leverage the modular, composable frameworks 
 
 ## Directory Structure
 
-- **langchain/**: Modular examples covering core concepts, memory, model I/O, data connections, and classic agent/chain patterns.
-- **langgraph/**: Tutorials and advanced guides for building agent graphs, multi-agent collaboration, reflection/reflexion agents, and chatbots using LangGraph.
-- **langchain-usecase/**: Real-world use cases, e.g., a sales chatbot for real estate.
-- **langchian-models/**: Model-specific demos, e.g., ChatGLM integration.
-- **openai_api-2024/**: Quickstart guides and notebooks for using the OpenAI API, including embeddings, TTS, assistants, and more.
-- **langchain_lcel_intro.md**: Beginner-friendly introduction to LangChain and LCEL (LangChain Expression Language).
+- **langchain/**: Modular examples covering core concepts, memory, model I/O, data connections, and classic agent/chain patterns. Subfolders include `LCEL/`, `memory/`, `model_io/`, `data_connection/`, `v1 - agents/`, `v1 - chains /`, and more.
+- **langgraph/**: Tutorials and advanced guides for building agent graphs, multi-agent collaboration, reflection/reflexion agents, and chatbots using LangGraph. Includes example notebooks and images.
+- **langchain-usecase/**: Real-world use cases, e.g., a sales chatbot for real estate, found in `sales_chatbot/`.
+- **langchain-models/**: Model-specific demos, e.g., ChatGLM and Zhipu integrations, with subfolders for each model.
+- **openai_api-2024/**: Quickstart guides and notebooks for using the OpenAI API, including embeddings, TTS, assistants, and more. Contains subfolders for audio, data, FAQ, and images.
+- **langsmith/**: Notebooks for tracing and evaluation with LangSmith.
+- **README.md**: Project overview and instructions.
+
+Other files and subfolders may exist for images, tests, and supporting data. See each directory for more details.
 
 ## Key Features
 
